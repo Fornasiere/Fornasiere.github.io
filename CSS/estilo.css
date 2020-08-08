@@ -1,0 +1,440 @@
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    
+}
+body
+{
+
+    font-family: 'Abhaya Libre', serif;
+    background-size: auto;
+    color: black;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+nav{
+    height: 80px;
+    background: #ecececfa;
+}
+
+nav img {
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+}
+nav img:hover{
+    background: #e6e6e6;
+    border-radius: 5%;
+    
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    line-height: 80px;
+    margin-top: 0 15px;
+}
+
+
+nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: #ca909f;
+    position: relative;
+    padding: 5px 60px; 
+    width: 100%;
+    font-size: 17px;
+
+} 
+nav ul li a:before{
+    position: absolute;
+    content: '';
+    left: 27.5%;
+    bottom: 0;
+    height: 3px;
+    width: 45%;
+    background: #ca909f;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+label #open,
+label #close{
+    color: #ca909f;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.fundo{
+    background-image: url('../Img\ Site\ Isabela-01.jpg');
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    text-align: center;   
+    
+}
+
+.titulo
+{
+    padding-top: 20%;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subtitulo
+{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 80px;
+}
+
+.acao
+{
+    color: whitesmoke;
+    border: 1px whitesmoke solid;
+    border-radius: 10%;
+    padding: 20px 20px 20px 20px ;
+    
+    
+}
+
+.acao:hover {    
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.destaque
+{
+    background-color:#d8d8d8;
+    padding: 20px;
+}   
+.conteudo{
+    background: #e8e8e8;
+} 
+h2{
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+}  
+
+.icon
+{
+    width: 100px;
+}
+
+.icon:hover
+{
+    background-color: #ca909f;
+    transition: background-color 1s ;
+    border-radius: 10%;
+    transform: scale(1.1);
+  
+}
+section
+{
+    padding: 20px;
+    float: left;
+}
+
+.coluna
+{
+    width: 40%;
+}
+.colunaquatro, .coluna, .colunatres, .colunasobre
+{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 27px;
+    
+}
+
+.colunaquatro
+{
+    padding: 35px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    height: 100%;
+    
+}
+.colunatres
+{
+    width: 23%;
+}
+
+#topicos
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.mulheres
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    height: auto;
+}
+
+.mulheres:hover
+{
+    transform: scale(1.1);
+    border-radius: 10%;
+}
+.frases
+{
+    font-family: 'Abhaya Libre', serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+
+}
+.justify
+{
+    text-align: justify;
+}
+
+.center
+{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+a 
+{
+    color: #be395b;
+    text-decoration: none;  
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+.icones a{
+    color: #ca909f;
+}
+
+.icones
+{
+   
+    padding-bottom: 100px;
+    padding: 45px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.icones a:hover
+{
+    
+    text-decoration: none;
+}
+#sobre{
+    padding: 0 5%;
+}
+#colunasobre{
+    padding-right: 30px;
+    padding: 25px;
+}
+
+#colunaimg{
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+
+}
+#colunaimg{
+    font-style: italic;
+    color: lightslategray;
+}
+#colunaimg a{
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+
+#contato
+{
+    width: auto;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    
+}
+footer{
+    background-color: #d8d8d8;
+    float: left;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.informacoes{
+    width: 40%;
+    padding-top: 30px;
+    float: left;
+    padding: 0 5% ;
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+.informacoes h3{
+   
+    margin-top: 15px;
+}
+
+.informacoes p{
+    margin-top: 15px;
+}
+
+
+@media (max-width: 1118px){
+    nav ul li a{
+        padding: 5px 40px; 
+        width: 100%;
+        font-size: 16px;
+    
+    } 
+    .colunaquatro
+{
+    padding: 40px;
+    width: 25%;
+    
+    
+}
+}
+
+@media (max-width: 977px){
+    nav ul li a{
+        padding: 5px 30px; 
+        width: 100%;
+        font-size: 15px;
+    
+    } 
+    .colunaquatro
+{
+    padding: 60px;
+    width: 35%;
+    
+    
+}
+.colunatres
+{
+    padding: 60px;
+    width: 35%;;
+}
+}
+
+@media (max-width: 860px){
+
+    .coluna, .colunatres, .colunaquatro
+    {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .fundo{
+        background: url('fundo\ 800.jpg');  
+        background-size: 100% 100vh;
+        width: 100%;
+        height: 100vh;
+        
+    }
+
+
+        .mulheres
+    {
+        
+        width: 40%;
+        height: auto;
+    }
+        
+
+
+    label #open{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 70vh;
+        background: #ecececfa;
+        top: 76px;
+        right: -150%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+     display: block;
+     margin: 50px 0; 
+     line-height: 30px;  
+    }   
+
+    nav ul li a{
+        font-size: 19px;  
+    }   
+
+    #check:checked ~ ul {
+        right: -8%;
+    }
+
+    #check:checked ~ label #open {
+        display: none;
+    }
+
+    #check:checked ~ label #close {
+        display: block;
+    }
+
+
+    
+}
+
